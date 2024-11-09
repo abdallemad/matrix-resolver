@@ -16,7 +16,7 @@ function CustomInput({
   render={({ field }) => (
     <FormItem className="flex gap-2 items-center">
       <FormControl>
-        <Input type="number" {...field} className="max-w-[4rem] text-lg"/>
+        <Input type="number" {...field} className="max-w-[4rem] text-lg shrink-0"/>
       </FormControl>
       <FormLabel>{name}</FormLabel>
     </FormItem>
