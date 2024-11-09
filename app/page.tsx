@@ -5,7 +5,7 @@ import { Calculator } from "lucide-react";
 export default function Home() {
   return (
     <main className="pt-12 max-w-screen-lg mx-auto text-center md:text-left px-12  lg:px-0 ">
-      <div className="flex gap-8 items-center">
+      <div className="flex gap-8 items-center flex-col md:flex-row ">
         <div>
           <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl capitalize mb-4">
             solve matrixes with Gause Jordan, project
